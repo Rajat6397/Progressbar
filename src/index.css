@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #3f3f3f;
+}
+.App {
+  text-align: center;
+
+}
+
+.progressbar{
+  width: 70%;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #fff;
+  margin-left:140px;
+}
+.progressbarfill{
+  height: 100%;
+  border-radius: 50px;
+  background-color: red;
+  transition:  width 0.9 ease-out;
+  color: #fff;
+}
+.mt-3{
+  color:greenyellow;
+}
